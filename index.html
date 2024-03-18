@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="png" href="img/favicon-32x32.png" sizes="32x32" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Normalize-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.com/libraries/normalize">
+    
+    <!--Google Font Nunito Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+    
+    <!--My base stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta charset="utf-8">
+    
+    <title>Carson Bateman</title>
+</head>
+
+<body>
+    <header class="page-header">
+        <!--Personalized Pixel Art logo-->
+        <img src="img/pixelartlogo.png" class="pixel-art-logo page-header__item" alt="pixel art logo of an American football player in a helmet and shoulder pads sitting at a desk in front of a computer" id="top">
+        <nav class="main-navigation page-header__item">
+            <!--Personalized Pixel Art logo-->
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile">
+        
+        <!--Add potrait below, maybe one of the ones taken at GlobalTranz. I think I used it on LinkedIn as well-->
+        <img src="img/portrait_carson_bateman.jpg" class="profile_portrait" alt="Carson Bateman Portrait">
+        <h1>Hello World!</h1>
+        <p>
+            My name is Carson Bateman, and I am a <span>web </span> developer from Texas by way of Utah.
+        </p>
+        <a href="about.html">Check out some of my code</a>
+
+        <!--Default link/button for CSS trial-->
+        <a href="#">Default Link</a>
+        <button type="button">Default Button</button>
+
+        <!--Secondary Buttons-->
+        <button class="button_secondary">Secondary Button</button>
+
+    </main>
+
+    <footer class="page-footer">
+        <p>Find me on:</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/carson-bateman-322660199/" target="_blank"> <img src="img/linkedin_icon.svg" alt="LinkedIn logo" ></a>
+            <a href="https://github.com/carsonrb11" target="_blank"> <img src="img/github_icon.svg" alt="GitHub logo"></a>
+            <a href="https://twitter.com/CarsonBateman2" target="_blank"> <img src="img/x_icon.svg" alt="X logo formerly known as Twitter" ></a>
+            <a href="#top">Back to Top</a>
+        </div>
+    </footer>
+
+    <!--tota11y accessibility check pulgin-->
+    <script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>
