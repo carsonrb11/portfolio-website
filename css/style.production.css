@@ -336,7 +336,7 @@ table, th, td {
     }
 }
 
-.cloud-back{
+.cloud-back{ 
     -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
             animation: 34s cloud-move-reverse infinite alternate linear;
 }
